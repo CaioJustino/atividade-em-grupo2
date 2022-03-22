@@ -1,0 +1,200 @@
+body {
+    margin: auto 0;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 89x;
+    background-color: #F59E0B;
+    text-align: center;
+}
+
+header nav a {
+   text-decoration: none;
+   font-weight: 600;
+   color: #1F2937;
+}
+
+.logo, .menu {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+.logo {
+    padding-right: 200px;
+}
+
+.menu {
+    margin-bottom: 9px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding-right: 21px;
+}
+
+nav li:first-child {
+    padding-right: 26px;    
+}
+
+nav li:nth-child(2) {
+    padding-right: 42px;    
+}
+
+nav li img {
+    vertical-align: middle;
+}
+
+.destaque {
+    width: 100%;
+    height: 711px;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(270deg, rgba(33, 184, 217, 0) 0%, #063266 100%), url(assets/img/background-destaque.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.destaque2 {
+    max-width: 1120px;
+    margin: 0 auto; 
+}
+
+.destaque-titulo {
+    padding-top: 180px;
+    padding-bottom: 41px;
+}
+
+.destaque-titulo h1 {
+    margin: 0;
+    width: 672px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 44px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.destaque-titulo span {
+   color: #F2C94C;
+}
+
+.destaque-info {
+    padding-bottom: 77px;
+}
+
+.destaque-info p {
+    width: 571px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.destaque div:nth-child(3) {
+    padding-bottom: 99px;
+}
+
+.conheca-button {
+    width: 316px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
+    background: linear-gradient(90deg, #EF5F53 0%, #FA8F70 100%);
+    border: none;
+    border-radius: 5px;
+    padding: 16px 20px;
+    cursor: pointer;
+}
+
+.destaque div:nth-child(3) img {
+    padding-right: 7px;
+    margin-bottom: 1px;
+    vertical-align: sub;
+}
+
+.destaque div:nth-child(4) {
+    float: right;
+    position: relative;
+    top: -75px;
+}
+
+.arrow-button {
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 72.2222px;
+    width: 65px;
+    height: 65px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.arrow-button svg:hover path { /*Só deu colocando o "path" :D*/
+    stroke: #3655B3;
+}
+
+.arrow-button:first-child {
+    margin-right: 14px;
+}
+
+.destaque3 {
+    background-color: #F7F9FF;
+    height: 399px;
+    padding-bottom: 30px;
+}
+
+.ctlg {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.ctlg-left {
+    width: 480px;
+}
+
+.ctlg-left p:first-child {
+    margin-top: 80px;
+    margin-bottom: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #6B7280;
+    line-height: 29px;
+}
+
+.ctlg-left p:nth-child(2) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    color: #1F2937;
+    line-height: 45px;
+}
+
+.ctlg-right {
+    width: 535px;
+    padding-left: 108px;
+    float: right; 
+    position: relative;
+    top: -140px;
+}
+
+.ctlg-right p:first-child {
+    margin-bottom: 43px; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #6B7280;
+    line-height: 29px;
+}
+
+.ctlg-right a { 
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    background: linear-gradient(90deg, #EF5F53 0%, #FA8F70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
