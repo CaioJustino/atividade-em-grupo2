@@ -198,3 +198,78 @@ nav li img {
     background-clip: text;
     color: transparent;
 }
+
+.blue-rectangle{
+    width: 27px;
+    height: 11px;
+    background: #3655B3;
+    border-radius: 1px;
+    margin-right: 8px;
+}
+ 
+.blue-rectangle, .modelos h3{
+    display: inline-block;
+}
+
+.modelos-titulo{
+    max-width: 300px;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.03em;
+    color: #3655B3;
+}
+
+.tipo-piscina{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6D6E71;
+}
+
+.tipo-piscina span{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tipo-piscina:first-child, .tipo-piscina:nth-child(4) span{
+    color: #233673;
+}
+
+.icon-piscina{
+    margin-right: 9.8px;
+}
+ 
+.icon-piscina, .modelo-piscina {
+    display: inline;
+    vertical-align: middle;
+}
+
+.modelo-piscina{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color:#9CA3AF;
+}
+
+.piscina{
+    display: inline-block;
+    padding-right: 25px;
+    padding-bottom: 42px; 
+}
+ 
+.modelos{
+    max-width: 1200px;
+}
