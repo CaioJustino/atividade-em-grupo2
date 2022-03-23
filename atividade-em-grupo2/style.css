@@ -392,3 +392,72 @@ nav li img {
     height: 304px;
     margin-top: 73px;
 }
+
+.atendimento {
+    width: 100%;
+    height: 256px;
+    background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+    color: #FFFFFF;
+}
+
+.gotas {
+    position: absolute;
+}
+
+.gotas img {
+    margin-top: 17px;
+}
+
+.atendimento2 {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.atendimento-info, .logo-whatsapp, .fale-conosco {
+    display: inline-block;
+}
+
+.atendimento-info, .logo-whatsapp {
+    vertical-align: top;
+    padding-top: 55px;
+    padding-left: 53px;
+}
+
+.atendimento-info {
+    padding-left: 14px;
+}
+
+.logo-whatsapp {
+    padding-top: 65px;
+}
+
+.atendimento-info p:first-child {
+    width: 447px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    line-height: 45px;
+    margin: 0;
+}
+
+.atendimento-info p:nth-child(2) {
+    width: 572px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 0;
+    margin-top: 18px;
+}
+
+.fale-conosco button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #233673;
+    border: none;
+    border-radius: 5px; 
+    padding: 16px 30px;
+    margin-left: 80px;
+    margin-top: 88px;
+    cursor: pointer;
+}
