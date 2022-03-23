@@ -116,7 +116,7 @@ nav li img {
     vertical-align: sub;
 }
 
-.destaque div:nth-child(4) {
+.destaque .arrow-buttons {
     float: right;
     position: relative;
     top: -75px;
@@ -130,9 +130,10 @@ nav li img {
     height: 65px;
     padding-top: 5px;
     padding-left: 5px;
+    cursor: pointer;
 }
 
-.arrow-button svg:hover path { /*Só deu colocando o "path" :D*/
+.arrow-button svg:hover path {
     stroke: #3655B3;
 }
 
@@ -144,6 +145,7 @@ nav li img {
     background-color: #F7F9FF;
     height: 399px;
     padding-bottom: 30px;
+    padding-top: 80px;
 }
 
 .ctlg {
@@ -199,42 +201,47 @@ nav li img {
     color: transparent;
 }
 
-.blue-rectangle{
+.modelos {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 547px;
+}
+
+.blue-rectangle {
     width: 27px;
     height: 11px;
     background: #3655B3;
     border-radius: 1px;
     margin-right: 8px;
-}
- 
-.blue-rectangle, .modelos h3{
-    display: inline-block;
+    margin-bottom: 5px;
 }
 
-.modelos-titulo{
+.modelos-titulo {
     max-width: 300px;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 34px;
-    letter-spacing: -0.03em;
     color: #3655B3;
 }
 
-.tipo-piscina{
-    font-family: Open Sans;
+.blue-rectangle, .modelos-titulo p {
+    display: inline-block;
+}
+
+.tipo-piscina {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
     color: #6D6E71;
+    margin-top: 8px;
+    margin-bottom: 9.5px;
 }
 
-.tipo-piscina span{
-    font-family: Open Sans;
+.tipo-piscina span {
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 29px;
@@ -246,7 +253,7 @@ nav li img {
     color: #233673;
 }
 
-.icon-piscina{
+.icon-piscina {
     margin-right: 9.8px;
 }
  
@@ -255,21 +262,133 @@ nav li img {
     vertical-align: middle;
 }
 
-.modelo-piscina{
-    font-family: Open Sans;
+.modelo-piscina {
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 20px;
     color:#9CA3AF;
 }
 
-.piscina{
+.piscina {
     display: inline-block;
     padding-right: 25px;
-    padding-bottom: 42px; 
+    padding-bottom: 35.5px; 
 }
- 
-.modelos{
-    max-width: 1200px;
+
+.piscina:nth-child(5),
+.piscina:nth-child(9),
+.piscina:nth-child(13) {
+    padding-right: 0;
+}
+
+.orcamentos {
+    background: linear-gradient(180deg, rgba(153, 123, 141, 0.04) 8.74%, rgba(255, 0, 122, 0) 100%);
+    border: 1px solid #E5E7EB;
+    box-sizing: border-box;
+    box-shadow: 0px 15px 15px rgba(252, 138, 51, 0.25);
+    border-radius: 20px;
+    max-width: 1100px;
+    height: 947px;
+    margin: 0 auto;
+}
+
+.produto-exemplo, .exemplo-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.produto-exemplo img {
+    margin-left: 41px;
+    margin-top: 107px;
+}
+
+.exemplo-info {
+    margin-left: 16px;
+    margin-bottom: -15px;
+}
+
+.exemplo-info p:not(:nth-child(4)) {
+    font-family: 'Open Sans', sans-serif;
+    color: #6D6E71;
+    width: 442px;
+}
+
+.exemplo-info p:nth-child(2) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    color: #1F2937;
+    position: relative;
+}
+
+.exemplo-info div {
+    width: 185px;
+    height: 11px;
+    background: #F2C94C;
+    position: absolute;
+    margin-top: 42px;
+    margin-left: -2px;
+}
+
+.exemplo-info p:nth-child(5) {
+    margin-top: 30px;
+}
+
+.exemplo-info p:nth-child(7) {
+    background: linear-gradient(90deg, #EF5F53 0%, #FA8F70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.exemplo-info button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #233673;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 30px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.arrow-buttons2 {
+    float: right;
+    margin-right: 25px;
+}
+
+.arrow-button2 {
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+}
+
+.arrow-button2:hover {
+    border: 1px solid #3655B3;
+}
+
+.arrow-button2 svg {
+    padding: 10px 12px;
+}
+
+.arrow-button2 svg:hover path {
+    stroke: #3655B3;
+}
+
+.arrow-button2:first-child {
+    margin-right: 15px;
+}
+
+.tamanhos-piscinas {
+    background: linear-gradient(180deg, rgba(175, 156, 156, 0.66) 0%, rgba(156, 163, 175, 0) 100%);
+    opacity: 0.15;
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    width: 1100px;
+    height: 304px;
+    margin-top: 73px;
 }
