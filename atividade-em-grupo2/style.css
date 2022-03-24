@@ -289,8 +289,23 @@ nav li img {
     box-shadow: 0px 15px 15px rgba(252, 138, 51, 0.25);
     border-radius: 20px;
     max-width: 1100px;
-    height: 947px;
+    height: 980px;
     margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.nossos-modelos {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    position: relative;
+    width: 168px;
+    left: 53px;
+}
+
+.nossos-modelos, .arrow-buttons2{
+    display: inline-block;
 }
 
 .produto-exemplo, .exemplo-info {
@@ -357,6 +372,7 @@ nav li img {
 
 .arrow-buttons2 {
     float: right;
+    margin-top: 4px;
     margin-right: 25px;
 }
 
@@ -364,15 +380,19 @@ nav li img {
     border: 1px solid #D1D5DB;
     border-radius: 5px;
     cursor: pointer;
-    background: none;
+    background: none;    
 }
 
 .arrow-button2:hover {
     border: 1px solid #3655B3;
 }
 
-.arrow-button2 svg {
-    padding: 10px 12px;
+.arrow-button2:first-child  svg {
+    padding: 8px 12px 8px 10px;
+}
+
+.arrow-button2:last-child svg {
+    padding: 8px 10px 8px 12px;
 }
 
 .arrow-button2 svg:hover path {
@@ -389,7 +409,6 @@ nav li img {
     position: absolute;
     width: 1100px;
     height: 304px;
-    margin-top: 73px;
     text-align: center;
 }
 
