@@ -307,7 +307,7 @@ div#arrow{
 }
 
 .exemplo-info {
-    padding-top: 90px;
+    padding-top: 60px;
     padding-left: 16px;
 }
 
@@ -521,12 +521,12 @@ div#arrow{
 }
 
 .sobre-nos div h2 {
+    width: 473px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 44px;
     font-weight: 300;
     line-height: 62px;
     color: #374151;
-    width: 473px;
     position: relative;
     padding-right: 91px;
     margin-top: 31px;
@@ -534,12 +534,17 @@ div#arrow{
 }
 
 .sobre-nos div p {
+    width: 540px;
     line-height: 29px;
     color: #374151;    
-    width: 540px;
 }
 
-.sobre-nos div p span{
+div#sobre-nos-texto {
+    position: relative;
+    top: 20px;
+}
+
+.sobre-nos div p span {
     background: linear-gradient(90deg, #EF5F53 0%, #FA8F70 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(239, 95, 83, 1);
@@ -557,4 +562,143 @@ h2 span.primary-blue,
 p span.primary-blue, 
 p#primary-blue{
     color: #233673;
+}
+
+/* Seção Rodapé */
+
+footer {
+    background-color: rgba(179, 198, 255, 0.1);
+}
+
+.rodape {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.nosso_contato, .solicite-orcamento {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.nosso_contato {
+    font-family: 'Open Sans', sans-serif;
+    color: #6D6E71;
+    height: 832px;
+    width: 300px;
+    border-radius: 0px;
+    background: rgba(229, 231, 235, 0.2);
+    margin-right: 240px;
+    padding-top: 80px;
+    padding-left: 47px;
+}
+
+.nosso_contato h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 66px;
+}
+
+.nosso_contato .contato-titulo {
+    font-weight: 600;
+}
+
+.nosso_contato .contato-texto {
+    width: 265px;
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 48px;
+}
+
+.nosso_contato img {
+    display: inline;
+    padding-right: 25px;
+}
+
+.solicite-orcamento {
+    margin-top: 97px;
+}
+
+.solicite-orcamento h3, .solicite-orcamento p {
+    text-align: center;
+}
+
+.solicite-orcamento h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #3655B3;
+    margin-bottom: 15px;
+}
+
+.solicite-orcamento p {
+    width: 482px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 43px;
+}
+
+.solicite-orcamento form {
+    width: 480px;
+}
+
+.solicite-orcamento form label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #1F2937;
+}
+
+.solicite-orcamento form input {
+    height: 50px;
+    width: 450px;
+    border-radius: 5px;
+    border: none;
+    background: #FFFFFF;
+    opacity: 0.3;
+    box-shadow: 0px 1px 0px #4E65A2;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
+
+.solicite-orcamento form input#fname {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #6B7280;
+}
+
+button.atendimento {
+    color: #F2F2F2;
+    height: 52px;
+    width: 450px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #EF5F53 0%, #FA8F70 100%);
+    box-shadow: 0px 5px 5px -25px rgba(80, 64, 128, 0.15);
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.light-blue {
+    width: 100%;
+    height: 64px;
+    background-color: #233673;
+}
+
+.dark-blue {
+    width: 100%;
+    height: 100%;
+    background-color: #1F3066;
+    text-align: center;
+}
+
+.dark-blue img {
+    padding-top: 20px;
+    padding-bottom: 21px;
 }
