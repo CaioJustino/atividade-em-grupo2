@@ -2,7 +2,7 @@
 
 # **Funções de cada integrante**
 
-    Ana Luiza - _Footer_
-    Bruna - Main e Seções: _Orçamentos_ e _Sobre-Nos_ da Main
-    Darllyane - _Footer_ e Seções: _Atendimento_ e _Sobre-Nos_ da Main
-    Caio - _Header_ e Seções: _Hero_ e _Propaganda_
+    Ana Luiza - Footer
+    Bruna - Main e Seções: Orçamentos e Sobre-Nos da Main
+    Darllyane - Footer e Seções: Atendimento e Sobre-Nos da Main
+    Caio - Header e Seções: Hero e Propaganda
