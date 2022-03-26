@@ -1,6 +1,10 @@
+/* Seção Acquafiber */
+
 body {
     margin: auto 0;
 }
+
+/* Menu */
 
 header {
     font-family: 'Open Sans', sans-serif;
@@ -8,12 +12,6 @@ header {
     height: 89x;
     background-color: #F59E0B;
     text-align: center;
-}
-
-header nav a {
-   text-decoration: none;
-   font-weight: 600;
-   color: #1F2937;
 }
 
 .logo, .menu {
@@ -28,6 +26,12 @@ header nav a {
 
 .menu {
     margin-bottom: 9px;
+}
+
+nav a {
+   text-decoration: none;
+   font-weight: 600;
+   color: #1F2937;
 }
 
 nav li {
@@ -48,27 +52,36 @@ nav li img {
     vertical-align: middle;
 }
 
-.destaque {
+/* Seção Hero */
+
+.hero {
     width: 100%;
     height: 711px;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(270deg, rgba(33, 184, 217, 0) 0%, #063266 100%), url(assets/img/background-destaque.png);
+    background-image: linear-gradient(270deg, rgba(33, 184, 217, 0) 0%, #063266 100%), url(assets/img/background-hero.png);
     background-size: cover;
     background-position: center;
 }
 
-.destaque2 {
+.hero-info {
     max-width: 1120px;
     margin: 0 auto; 
 }
 
-.destaque-titulo {
+.hero-texto p {
+    width: 571px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.95);
+    margin: 0px;
+}
+
+.hero-titulo {
     padding-top: 180px;
     padding-bottom: 41px;
 }
 
-.destaque-titulo h1 {
+.hero-titulo h1 {
     margin: 0;
     width: 672px;
     font-family: 'Ubuntu', sans-serif;
@@ -77,27 +90,18 @@ nav li img {
     color: #FFFFFF;
 }
 
-.destaque-titulo span {
+.hero-titulo span {
    color: #F2C94C;
 }
 
-.destaque-info {
-    padding-bottom: 77px;
+.gradient-button img {
+    padding-right: 7px;
+    margin-bottom: 1px;
+    vertical-align: sub;
 }
 
-.destaque-info p {
-    width: 571px;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
-    line-height: 32px;
-    color: rgba(255, 255, 255, 0.95);
-}
-
-.destaque div:nth-child(3) {
-    padding-bottom: 99px;
-}
-
-.conheca-button {
+.gradient-button {
+    margin-top: 77px;
     width: 316px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -110,19 +114,12 @@ nav li img {
     cursor: pointer;
 }
 
-.destaque div:nth-child(3) img {
-    padding-right: 7px;
-    margin-bottom: 1px;
-    vertical-align: sub;
-}
-
-.destaque .arrow-buttons {
+.hero-buttons {
     float: right;
-    position: relative;
-    top: -75px;
+    margin-top: 60px;
 }
 
-.arrow-button {
+.hero-buttons .arrow-button {
     border: none;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 72.2222px;
@@ -133,19 +130,22 @@ nav li img {
     cursor: pointer;
 }
 
-.arrow-button svg:hover path {
+.hero-buttons .arrow-button svg:hover path {
     stroke: #3655B3;
 }
 
-.arrow-button:first-child {
+.hero-buttons .arrow-button:first-child {
     margin-right: 14px;
 }
 
-.destaque3 {
+/* Seção Propaganda */
+
+.propaganda {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     background-color: #F7F9FF;
-    height: 399px;
-    padding-bottom: 30px;
-    padding-top: 80px;
+    padding-top: 105px;
+    padding-bottom: 61px;
 }
 
 .ctlg {
@@ -153,17 +153,17 @@ nav li img {
     margin: 0 auto;
 }
 
+.ctlg-right, .ctlg-left{
+    display: inline-block;
+}
+
 .ctlg-left {
     width: 480px;
+    padding-right: 100px;
 }
 
 .ctlg-left p:first-child {
-    margin-top: 80px;
-    margin-bottom: 17px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
     color: #6B7280;
-    line-height: 29px;
 }
 
 .ctlg-left p:nth-child(2) {
@@ -174,37 +174,32 @@ nav li img {
 }
 
 .ctlg-right {
-    width: 535px;
-    padding-left: 108px;
-    float: right; 
-    position: relative;
-    top: -140px;
+    width: 535px; 
 }
 
 .ctlg-right p:first-child {
     margin-bottom: 43px; 
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
     color: #6B7280;
     line-height: 29px;
 }
 
 .ctlg-right a { 
     float: right;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    text-decoration: underline;
     background: linear-gradient(90deg, #EF5F53 0%, #FA8F70 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgba(239, 95, 83, 1);
     background-clip: text;
-    color: transparent;
 }
 
+/* Seção Modelos */
+
 .modelos {
+    font-family: 'Open Sans', sans-serif;
     max-width: 1120px;
     margin: 0 auto;
-    margin-top: 547px;
+    margin-top: 67px;
 }
 
 .blue-rectangle {
@@ -229,50 +224,38 @@ nav li img {
 }
 
 .tipo-piscina {
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 400;
     line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #6D6E71;
     margin-top: 8px;
     margin-bottom: 9.5px;
+    color: #6D6E71;
 }
 
-.tipo-piscina span {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.tipo-piscina:first-child, .tipo-piscina:nth-child(4) span{
+.tipo-piscina-cor {
     color: #233673;
 }
 
-.icon-piscina {
-    margin-right: 9.8px;
+.tipo-piscina span {
+    font-weight: 700;
 }
- 
+
 .icon-piscina, .modelo-piscina {
     display: inline;
     vertical-align: middle;
 }
 
+.icon-piscina {
+    margin-right: 8px;
+}
+
 .modelo-piscina {
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
     color:#9CA3AF;
 }
 
 .piscina {
     display: inline-block;
-    padding-right: 25px;
+    padding-right: 26px;
     padding-bottom: 35.5px; 
 }
 
@@ -282,54 +265,58 @@ nav li img {
     padding-right: 0;
 }
 
+/* Seção Orçamentos */
+
 .orcamentos {
-    background: linear-gradient(180deg, rgba(153, 123, 141, 0.04) 8.74%, rgba(255, 0, 122, 0) 100%);
-    border: 1px solid #E5E7EB;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1120px;
+    height: 956px;
+    background: url(assets/img/section-piscinas.svg);
+    background-repeat: no-repeat;    
     box-sizing: border-box;
     box-shadow: 0px 15px 15px rgba(252, 138, 51, 0.25);
     border-radius: 20px;
-    max-width: 1100px;
-    height: 980px;
     margin: 0 auto;
     margin-bottom: 80px;
 }
 
-.nossos-modelos {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: -0.03em;
+div#arrow{
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 6px;
     position: relative;
-    width: 168px;
+}
+
+.nossos-modelos {
+    width: 200px;
     left: 53px;
 }
 
-.nossos-modelos, .arrow-buttons2{
+.nossos-modelos, .modelos-buttons{
     display: inline-block;
 }
 
 .produto-exemplo, .exemplo-info {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: text-top;
 }
 
 .produto-exemplo img {
+    margin-top: 77px;
     margin-left: 41px;
-    margin-top: 107px;
 }
 
 .exemplo-info {
-    margin-left: 16px;
-    margin-bottom: -15px;
+    padding-top: 90px;
+    padding-left: 16px;
 }
 
 .exemplo-info p:not(:nth-child(4)) {
-    font-family: 'Open Sans', sans-serif;
     color: #6D6E71;
     width: 442px;
 }
 
-.exemplo-info p:nth-child(2) {
+.nossos-modelos, .exemplo-info p:nth-child(2) {
     font-family: 'Ubuntu', sans-serif;
     font-size: 24px;
     color: #1F2937;
@@ -370,36 +357,36 @@ nav li img {
     margin-top: 15px;
 }
 
-.arrow-buttons2 {
+.modelos-buttons {
     float: right;
-    margin-top: 4px;
+    margin-top: 8px;
     margin-right: 25px;
 }
 
-.arrow-button2 {
+.modelos-buttons .arrow-button {
     border: 1px solid #D1D5DB;
     border-radius: 5px;
     cursor: pointer;
     background: none;    
 }
 
-.arrow-button2:hover {
+.modelos-buttons .arrow-button:hover {
     border: 1px solid #3655B3;
 }
 
-.arrow-button2:first-child  svg {
+.modelos-buttons .arrow-button:first-child  svg {
     padding: 8px 12px 8px 10px;
 }
 
-.arrow-button2:last-child svg {
+.modelos-buttons .arrow-button:last-child svg {
     padding: 8px 10px 8px 12px;
 }
 
-.arrow-button2 svg:hover path {
+.modelos-buttons .arrow-button svg:hover path {
     stroke: #3655B3;
 }
 
-.arrow-button2:first-child {
+.modelos-buttons .arrow-button:first-child {
     margin-right: 15px;
 }
 
@@ -407,14 +394,13 @@ nav li img {
     background: linear-gradient(180deg, rgba(175, 156, 156, 0.15) 0%, rgba(156, 163, 175, 0) 100%);
     border-radius: 0px 0px 10px 10px;
     position: absolute;
-    width: 1100px;
+    width: 1120px;
     height: 304px;
     text-align: center;
 }
 
 .tamanhos-piscinas div {
     display: inline-block;
-    font-family: 'Open Sans', sans-serif;
     text-align: top;
     padding-right: 19px;
     padding-top: 48px;
@@ -423,17 +409,11 @@ nav li img {
 
 .tamanhos-piscinas div p {
     color: #1F2937;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    
 }
 
 .tamanhos-piscinas div span{
     display: block;
     font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
     text-align: left;
     margin-top: 45.46px;
     color: #6D6E71;
@@ -443,7 +423,10 @@ nav li img {
     margin-top: 16px;
 }
 
+/* Seção Atendimento */
+
 .atendimento {
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     height: 256px;
     background: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
@@ -491,7 +474,6 @@ nav li img {
 
 .atendimento-info p:nth-child(2) {
     width: 572px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 29px;
     margin: 0;
@@ -512,10 +494,15 @@ nav li img {
     cursor: pointer;
 }
 
+/* Seção Sobre Nós */
+
 .sobre-nos {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     max-width: 1120px;
     margin: auto;
-    margin-top: 146px;    
+    margin-top: 146px;
+    margin-bottom: 150px;
 }
 
 .sobre-nos div {
@@ -524,18 +511,10 @@ nav li img {
 
 .sobre-nos div div{
     position: absolute;
-    padding-top: 270px;
-    text-align: left;
-    height: 24px;
-    width: 245px;
+    padding-top: 265px;
 }
 
 .sobre-nos div span {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
     color: #6B7280;
     width: 88px;    
     margin-top: 146px;   
@@ -544,37 +523,38 @@ nav li img {
 .sobre-nos div h2 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 44px;
-    font-style: normal;
     font-weight: 300;
     line-height: 62px;
     color: #374151;
     width: 473px;
     position: relative;
     padding-right: 91px;
+    margin-top: 31px;
+    margin-bottom: 0px;
 }
 
 .sobre-nos div p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
     line-height: 29px;
     color: #374151;    
     width: 540px;
-    margin-top: 20px;
 }
 
 .sobre-nos div p span{
     background: linear-gradient(90deg, #EF5F53 0%, #FA8F70 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgba(239, 95, 83, 1);
     background-clip: text;
-    color: transparent;
     text-decoration: underline;
-    font-size: 18px;
 }
 
 .sobre-nos div img {
     position: relative;
     top: 10px;
-    left: -80px;
+    left: -100px;
+}
+
+h2 span.primary-blue, 
+p span.primary-blue, 
+p#primary-blue{
+    color: #233673;
 }
