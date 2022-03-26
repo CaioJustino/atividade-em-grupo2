@@ -572,3 +572,9 @@ nav li img {
     text-decoration: underline;
     font-size: 18px;
 }
+
+.sobre-nos div img {
+    position: relative;
+    top: 10px;
+    left: -80px;
+}
